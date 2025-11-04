@@ -1,0 +1,53 @@
+# Ejecutables
+bin/*
+!bin/.gitkeep
+
+# Archivos de índice generados
+vocabulario.txt
+vocabulario_*.txt
+documentos.txt
+documentos_*.txt
+listas_invertidas.txt
+listas_invertidas_*.txt
+
+# Archivos de entrada/salida paralelos
+entrada_*.txt
+salida_*.txt
+
+# Particiones temporales
+particiones/base_texto_*.txt
+
+# Resultados temporales
+resultados/*.txt
+
+# Archivos de compilación
+*.o
+*.out
+*.exe
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Archivos de editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+
+# Logs
+*.log
+
+# No ignorar archivos de ejemplo importantes
+!txt/base_texto.txt
+!txt/base_texto_ejemplo.txt
+!txt/stopwords.txt
+!txt/diccionario.txt
+!consultas_ejemplo.txt
